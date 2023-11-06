@@ -3,14 +3,13 @@ import { VariantProps, cva } from 'class-variance-authority';
 import { ButtonHTMLAttributes, ReactNode } from 'react';
 
 const buttonVarinats = cva(
-  'inline-flex items-center jutify-center whitesoace-nowrap rounded-2xl px-4 py-2',
+  'inline-flex items-center jutify-center whitesoace-nowrap rounded-2xl px-4 py-3 transition-all duration-300',
   {
     variants: {
       variant: {
         default: 'bg-black text-white hover:bg-black/90',
         secondary: 'bg-yellow-400 border border-black hover:bg-yellow-400/90',
-        outline:
-          'border border-2 border-black hover:bg-black hover:text-white transition-all duration-300',
+        outline: 'border border-2 border-black hover:bg-black hover:text-white ',
       },
     },
     defaultVariants: {

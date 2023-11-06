@@ -1,11 +1,11 @@
 import Button from '@/components/Button';
+import Header from '@/features/header/Header';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <div>
-      <h1>main</h1>
-      <Button variant="outline">Test</Button>
+      <Header />
     </div>
   );
 }
