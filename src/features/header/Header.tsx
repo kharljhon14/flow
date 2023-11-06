@@ -11,13 +11,13 @@ const LINKS: HeaderLink[] = [
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-between mx-8">
+    <header className="flex items-center justify-between mx-12 py-6">
       <Image
-        src="/logo-black.svg"
+        src="/logo-no-background.svg"
         alt="flow logo"
         width={90}
         height={50}
-        style={{ width: '90px', height: '90px' }}
+        style={{ width: '70px', height: '70px' }}
       />
       <HeaderLinksContainer headerLinks={LINKS} />
       <div>
