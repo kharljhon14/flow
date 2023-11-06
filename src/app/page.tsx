@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="bg-yellow-100 min-h-screen">
+    <main className="bg-yellow-50 min-h-screen">
       <Header />
       <HeroSection />
     </main>
