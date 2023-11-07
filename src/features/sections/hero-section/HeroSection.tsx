@@ -4,13 +4,13 @@ import { IoIosArrowDropright } from 'react-icons/io';
 
 export default function HeroSection() {
   return (
-    <div className="flex items-center justify-between lg:mr-12 lg:ml-24 mx-12">
-      <div className="flex justify-center lg:w-1/2 flex-col items-center lg:items-start">
-        <div className="space-y-4 text-center lg:text-left">
-          <h1 className="lg:text-8xl text-6xl font-bold">
+    <div className="flex flex-col lg:flex-row justify-center items-center lg:justify-between lg:mr-12 lg:ml-24 mx-12 h-screen">
+      <div className="flex justify-center lg:w-1/2 flex-col lg:items-start">
+        <div className="space-y-4 lg:text-left">
+          <h1 className="lg:text-8xl md:text-6xl text-5xl font-bold">
             Grow Your <span className="block">Business With Us</span>
           </h1>
-          <p className="text-md text-center lg:text-left">
+          <p className="md:text-md text-sm lg:text-left">
             Welcome to our platform! We specialize in building robust and responsive web
             applications tailored to meet your business needs.
           </p>
@@ -27,7 +27,7 @@ export default function HeroSection() {
           </Button>
         </div>
       </div>
-      <div className="w-1/2 hidden lg:block">
+      <div className="lg:w-1/2 md:w-8/12">
         <Image
           width={800}
           height={800}

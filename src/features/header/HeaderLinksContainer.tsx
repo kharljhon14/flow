@@ -11,7 +11,7 @@ interface Props {
 
 export default function HeaderLinksContainer({ headerLinks }: Props) {
   return (
-    <div className="space-x-6">
+    <div className="space-x-6 hidden lg:block">
       {headerLinks.map(({ href, label }) => (
         <HeaderLink
           key={href}
