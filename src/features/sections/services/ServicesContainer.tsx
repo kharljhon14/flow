@@ -54,7 +54,7 @@ const SERVICES: ServicesProps[] = [
 
 export default function ServicesContainer() {
   return (
-    <div className=" flex items-center justify-evenly">
+    <div className=" flex items-center justify-evenly w-full">
       {SERVICES.map(({ icon, children }, idx) => (
         <Service
           key={idx}
