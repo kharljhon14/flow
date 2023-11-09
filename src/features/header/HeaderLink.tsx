@@ -9,7 +9,7 @@ interface Props {
 export default function HeaderLink({ children, href }: Props) {
   return (
     <Link
-      className="text-lg px-4 py-3 border border-transparent hover:border-black rounded-2xl"
+      className="text-md px-4 py-3 border-b-2 border-b-transparent hover:border-b-emerald-600 "
       href={href}
     >
       {children}

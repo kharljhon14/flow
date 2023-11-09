@@ -1,15 +1,11 @@
 import Header from '@/features/header/Header';
-import HeroSection from '@/features/sections/hero-section/HeroSection';
-import ServicesSection from '@/features/sections/services-section/ServicesSection';
-import SponsorSection from '@/features/sections/sponsors-section/SponsorSection';
+import HeroSection from '@/features/sections/hero/HeroSection';
 
 export default function Home() {
   return (
-    <main className="bg-yellow-50">
+    <main>
       <Header />
       <HeroSection />
-      <SponsorSection />
-      <ServicesSection />
     </main>
   );
 }
