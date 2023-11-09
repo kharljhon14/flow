@@ -4,7 +4,7 @@ import Image from 'next/image';
 export default function HeroSection() {
   return (
     <div className="relative h-[100vh] w-full">
-      <div className="h-full w-full relative flex items-center justify-center backdrop-blur-lg">
+      <div className="h-full w-full relative flex items-center justify-center">
         <Image
           priority
           fill
@@ -15,9 +15,9 @@ export default function HeroSection() {
         />
 
         <div className="relative flex items-center justify-center flex-col space-y-6">
-          <h1 className="font-semibold lg:text-4xl text-2xl text-center text-gray-900">
+          <h1 className="font-semibold lg:text-6xl text-3xl text-center text-gray-800">
             Learning Herbs with Dr.Leo To Become
-            <span className="block mt-4"> Experts in Herb Extraction</span>
+            <span className="block mt-4">Experts in Herb Extraction</span>
           </h1>
           <Button className=" uppercase">Our Membership</Button>
         </div>
