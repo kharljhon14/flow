@@ -1,7 +1,9 @@
 import { ReactNode } from 'react';
 import {
   PiChalkboardTeacherLight,
+  PiEyedropperSampleLight,
   PiEyedropperSampleThin,
+  PiLightbulbFilamentLight,
   PiLightbulbFilamentThin,
   PiPlantLight,
 } from 'react-icons/pi';
@@ -15,7 +17,7 @@ export interface ServicesProps {
 
 const SERVICES: ServicesProps[] = [
   {
-    icon: <PiEyedropperSampleThin size={54} />,
+    icon: <PiEyedropperSampleLight size={64} />,
     children: (
       <div>
         <p className=" line-clamp-2 text-center">
@@ -25,7 +27,7 @@ const SERVICES: ServicesProps[] = [
     ),
   },
   {
-    icon: <PiLightbulbFilamentThin size={54} />,
+    icon: <PiLightbulbFilamentLight size={64} />,
     children: (
       <div>
         <p className=" line-clamp-2 text-center">Free guided self learning platform</p>
@@ -33,7 +35,7 @@ const SERVICES: ServicesProps[] = [
     ),
   },
   {
-    icon: <PiPlantLight size={54} />,
+    icon: <PiPlantLight size={64} />,
     children: (
       <div>
         <p className=" line-clamp-2 text-center">
@@ -43,7 +45,7 @@ const SERVICES: ServicesProps[] = [
     ),
   },
   {
-    icon: <PiChalkboardTeacherLight size={54} />,
+    icon: <PiChalkboardTeacherLight size={64} />,
     children: (
       <div>
         <p className=" line-clamp-2 text-center">Exclusive in-depth content for members</p>

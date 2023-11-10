@@ -2,10 +2,10 @@ import Button from '@/components/Button';
 
 export default function AboutUsContent() {
   return (
-    <div className="flex justify-center flex-col p-32 w-full">
-      <span className="text-lime-700 mb-4">About us</span>
+    <div className="flex justify-center flex-col p-32 w-1/2">
+      <span className="text-lime-700 mb-4">About Us</span>
       <div className="space-y-6">
-        <h1 className=" font-light text-5xl uppercase text-gray-800">
+        <h1 className=" font-light text-4xl uppercase text-gray-800">
           Our Story: Rooted in nature, <br /> commited to your health
         </h1>
         <p className=" leading-7">
