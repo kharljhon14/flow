@@ -6,7 +6,7 @@ export default function MembershipSection() {
   return (
     <div>
       <div className="flex items-center justify-center flex-col p-20 w-full">
-        <span className="text-lime-700 mb-4">Join Our Herbal Wellness Community</span>
+        <span className="text-lime-700 mb-4 text-lg">Join Our Herbal Wellness Community</span>
         <div className="space-y-6">
           <h1 className=" font-light text-5xl uppercase text-gray-800">Our memberships include</h1>
         </div>

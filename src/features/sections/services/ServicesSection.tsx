@@ -12,12 +12,12 @@ export default function ServicesSection() {
           src="/images/guide.jpg"
           alt="Service wall Image"
           objectFit="cover"
-          objectPosition="center"
+          objectPosition="bottom"
         />
 
         <div className="relative flex items-center justify-center flex-col space-y-6 w-full">
           <div className="space-y-4 text-center">
-            <span className="text-lime-700">Herbal Remedies For Optimal Health</span>
+            <span className="text-lime-700 text-lg">Herbal Remedies For Optimal Health</span>
             <h1 className="font-light lg:text-5xl text-center text-gray-800 uppercase">
               Maximize your values
             </h1>
