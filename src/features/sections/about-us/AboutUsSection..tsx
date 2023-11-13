@@ -3,7 +3,7 @@ import AboutUsContent from './AboutUsContent';
 
 export default function AboutUsSection() {
   return (
-    <div className="flex items-center justify-between h-[65vh] py-8">
+    <div className="flex flex-col lg:flex-row items-center justify-between lg:h-[65vh] py-8 h-auto">
       <AboutUsContent />
       <AboutUsBackground />
     </div>

@@ -2,7 +2,7 @@ import Button from '@/components/Button';
 
 export default function AboutUsContent() {
   return (
-    <div className="flex justify-center flex-col p-32 w-1/2">
+    <div className="flex justify-center flex-col lg:p-32 lg:w-1/2  w-full p-6">
       <span className="text-lime-700 mb-4 text-lg">About Us</span>
       <div className="space-y-6">
         <h1 className=" font-light text-4xl uppercase text-gray-800">

@@ -17,12 +17,24 @@ export default function Footer() {
           <span className="font-semibold text-black">Sitemap</span>
         </div>
         <div className="grid grid-cols-2 gap-4 text-sm">
-          <Link href="/">Home</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Courses</Link>
-          <Link href="/">Blogs</Link>
-          <Link href="/">Membership</Link>
-          <Link href="/">Contact Us</Link>
+          <div>
+            <Link href="/">Home</Link>
+          </div>
+          <div>
+            <Link href="/">About</Link>
+          </div>
+          <div>
+            <Link href="/">Courses</Link>
+          </div>
+          <div>
+            <Link href="/">Blogs</Link>
+          </div>
+          <div>
+            <Link href="/">Membership</Link>
+          </div>
+          <div>
+            <Link href="/">Contact Us</Link>
+          </div>
         </div>
       </div>
 
