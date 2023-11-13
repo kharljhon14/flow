@@ -8,7 +8,9 @@ interface Props extends PropsWithChildren<Record<never, never>> {
 
 export default function MembershipContent({ children, classname }: Props) {
   return (
-    <div className={cn(['flex justify-center flex-col p-32 w-1/2 h-full', classname])}>
+    <div
+      className={cn(['flex justify-center flex-col lg:p-32 p-6 lg:w-1/2 w-full h-full', classname])}
+    >
       {children}
     </div>
   );

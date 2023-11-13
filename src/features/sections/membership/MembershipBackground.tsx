@@ -6,7 +6,7 @@ interface Props {
 
 export default function MembershipBackground({ image }: Props) {
   return (
-    <div className="relative h-full w-1/2">
+    <div className="relative h-full lg:w-1/2 hidden">
       <Image
         fill
         src={image}

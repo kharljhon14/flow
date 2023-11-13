@@ -5,18 +5,20 @@ import MembershipContent from './MembershipContent';
 export default function MembershipSection() {
   return (
     <div>
-      <div className="flex items-center justify-center flex-col p-20 w-full">
+      <div className="flex items-center justify-center flex-col lg:p-20 p-6 w-full">
         <span className="text-lime-700 mb-4 text-lg">Join Our Herbal Wellness Community</span>
         <div className="space-y-6">
-          <h1 className=" font-light text-5xl uppercase text-gray-800">Our memberships include</h1>
+          <h1 className=" font-light lg:text-5xl text-4xl text-center lg:text-left uppercase text-gray-800">
+            Our memberships include
+          </h1>
         </div>
       </div>
 
-      <div className="mx-24">
-        <div className="flex items-center justify-between h-[60vh]">
+      <div className="lg:mx-24 mx-6 space-y-6 lg:space-y-0">
+        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
           <MembershipContent classname="bg-lime-50">
             <div className="space-y-6">
-              <h1 className=" font-light text-4xl uppercase text-gray-800">
+              <h1 className=" font-light lg:text-4xl text-3xl text-center lg:text-left uppercase text-gray-800">
                 Structure making of 50 herbs <br /> and,their benefits
               </h1>
               <p className=" leading-7">
@@ -34,11 +36,11 @@ export default function MembershipSection() {
           <MembershipBackground image="/images/herbs.jpg" />
         </div>
 
-        <div className="flex items-center justify-between h-[60vh]">
+        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
           <MembershipBackground image="/images/tea.jpg" />
           <MembershipContent>
             <div className="space-y-6">
-              <h1 className=" font-light text-4xl uppercase text-gray-800">
+              <h1 className=" font-light lg:text-4xl text-3xl text-center lg:text-left uppercase text-gray-800">
                 How to run a herb business
               </h1>
               <p className=" leading-7">
@@ -56,10 +58,10 @@ export default function MembershipSection() {
           </MembershipContent>
         </div>
 
-        <div className="flex items-center justify-between h-[60vh]">
+        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
           <MembershipContent classname="bg-lime-50">
             <div className="space-y-6">
-              <h1 className=" font-light text-4xl uppercase text-gray-800">
+              <h1 className=" font-light lg:text-4xl text-3xl text-center lg:text-left uppercase text-gray-800">
                 Years of experience-based guidance for successful distillation
               </h1>
               <p className=" leading-7">
