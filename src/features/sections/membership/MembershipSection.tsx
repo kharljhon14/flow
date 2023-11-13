@@ -15,7 +15,7 @@ export default function MembershipSection() {
       </div>
 
       <div className="lg:mx-24 mx-6 space-y-6 lg:space-y-0">
-        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
+        <div className="flex items-center justify-between lg:h-[60vh]">
           <MembershipContent classname="bg-lime-50">
             <div className="space-y-6">
               <h1 className=" font-light lg:text-4xl text-3xl text-center lg:text-left uppercase text-gray-800">
@@ -36,7 +36,7 @@ export default function MembershipSection() {
           <MembershipBackground image="/images/herbs.jpg" />
         </div>
 
-        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
+        <div className="flex items-center justify-between lg:h-[60vh]">
           <MembershipBackground image="/images/tea.jpg" />
           <MembershipContent>
             <div className="space-y-6">
@@ -58,7 +58,7 @@ export default function MembershipSection() {
           </MembershipContent>
         </div>
 
-        <div className="flex flex-col items-center justify-between lg:h-[60vh]">
+        <div className="flex  items-center justify-between lg:h-[60vh]">
           <MembershipContent classname="bg-lime-50">
             <div className="space-y-6">
               <h1 className=" font-light lg:text-4xl text-3xl text-center lg:text-left uppercase text-gray-800">
