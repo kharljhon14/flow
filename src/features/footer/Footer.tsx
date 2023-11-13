@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t py-8 bg-gray-50 px-24 flex items-center justify-between text-gray-500">
+    <footer className="w-full border-t py-8 bg-gray-50 lg:px-24 px-12 flex items-center space-y-6 lg:space-y-0 justify-between text-gray-500 flex-col lg:flex-row">
       <div className="w-full">
         <span className="text-sm ">
           We&apos;re dedicated to providing reliable and accurate <br /> information on herbal
