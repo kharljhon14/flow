@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function BlogsContainer() {
   return (
-    <div className="flex items-center justify-evenly mb-12">
+    <div className="flex items-center justify-evenly mb-12 flex-col space-y-12 lg:space-y-0 lg:flex-row">
       <Blog>
         <div className="relative w-full h-1/2">
           <Image
